@@ -29,7 +29,7 @@ class Food{
           }else{
             x=x-1;
             Happy=true;
-            hours= d.getSeconds();
+            hours= d.getHours();
             h = hours;
             //ampm();
             setHours(hours);
@@ -76,7 +76,7 @@ class Food{
     //}
 
         this.date = new Date();
-        this.currenttime = this.date.getSeconds();
+        this.currenttime = this.date.getHours();
 
         imageMode(CENTER);
         if(this.button1){
